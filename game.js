@@ -105,7 +105,6 @@ function nextSequence() {
     //Pushing the chosen color to empty array
     gamePattern.push(randomChosenColour);
 
-    playSound(randomChosenColour);
     playPattern();
 }
 
